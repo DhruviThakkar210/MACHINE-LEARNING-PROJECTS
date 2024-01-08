@@ -3,7 +3,7 @@
 
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
-| data/                | Contains the dataset file (data.csv).     |
+| data/                | Contains the dataset file (Data.csv).     |
 | notebooks/           | Jupyter notebooks for data analysis and training (sonar_logistic_regression.ipynb).|
 | src/                 | Python script for the logistic regression model (logistic_regression_model.py).|
 
