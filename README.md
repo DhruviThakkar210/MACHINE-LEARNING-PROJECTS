@@ -29,7 +29,7 @@ PROJECT 4
 Algerian Forest Fire - Lasso Ridge Elasticnet Model
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
-| data/                | Contains the dataset file (Maternal Health.csv).        |
-| notebooks/           | Jupyter notebooks for data analysis and training (ML Research.ipynb).|
-| src/                 | Python script for the  model (Regression.py).|     
+| data/                | Contains the dataset file (Algerian.csv).        |
+| notebooks/           | Jupyter notebooks for data analysis and training (Ridge.ipynb).|
+| src/                 | Python script for the  model (Elasticnet.py).|     
 
