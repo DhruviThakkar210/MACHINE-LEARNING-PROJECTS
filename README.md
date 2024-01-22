@@ -25,7 +25,7 @@ Pregnancy Risk Predictor Model
 | notebooks/           | Jupyter notebooks for data analysis and training (ML Research.ipynb).|
 | src/                 | Python script for the  model (Regression.py).|     
 
-PROJECT 3
+PROJECT 4
 Algerian Forest Fire - Lasso Ridge Elasticnet Model
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
