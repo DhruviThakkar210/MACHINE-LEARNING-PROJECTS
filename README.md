@@ -33,3 +33,10 @@ Algerian Forest Fire - Lasso Ridge Elasticnet Model
 | notebooks/           | Jupyter notebooks for data analysis and training (Ridge.ipynb).|
 | src/                 | Python script for the  model (Elasticnet.py).|     
 
+
+Iris DataSet - Decision Tree - Pre & Post Prunning
+| Directory/File       | Description                                      |
+|----------------------|--------------------------------------------------|
+| data/                | Contains the dataset file (Algerian.csv).        |
+| notebooks/           | Jupyter notebooks for data analysis and training (Ridge.ipynb).|
+| src/                 | Python script for the  model (Elasticnet.py).|     
