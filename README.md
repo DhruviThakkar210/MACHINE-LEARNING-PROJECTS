@@ -1,4 +1,4 @@
-PROJECT 1
+
  Logistic Regression on Sonar System
 
 | Directory/File       | Description                                      |
