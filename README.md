@@ -8,7 +8,7 @@
 | src/                 | Python script for the logistic regression model (logistic_regression_model.py).|
 
 
-PROJECT 2
+
 Linear Regression for Car Dekho's Data
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
