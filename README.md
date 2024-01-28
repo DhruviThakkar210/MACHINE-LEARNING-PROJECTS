@@ -17,7 +17,7 @@ Linear Regression for Car Dekho's Data
 | src/                 | Python script for the linear regression model (linear_regression_model.py).|                          |
 
 
-PROJECT 3
+
 Pregnancy Risk Predictor Model 
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
