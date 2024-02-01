@@ -9,7 +9,7 @@
 
 
 
-Linear Regression for Car Dekho's Data
+Linear Regression  -  Car Dekho's Data
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Car_Data.csv).        |
