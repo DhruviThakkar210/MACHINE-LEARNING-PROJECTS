@@ -1,5 +1,5 @@
 
- Logistic Regression on Sonar System
+ Logistic Regression - Sonar System
 
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
