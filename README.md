@@ -48,3 +48,11 @@ Naive Bayes
 | data/                | Contains the dataset file (Iris.csv).        |
 | notebooks/           | Jupyter notebooks for data analysis and training (Naive.ipynb).|
 | src/                 | Python script for the  model (Naive Bayes.py).|     
+
+
+SVC - using synthetic data points
+| Directory/File       | Description                                      |
+|----------------------|--------------------------------------------------|
+| notebooks/           | Jupyter notebooks for data analysis and training (Naive.ipynb).|
+| src/                 | Python script for the  model (svc.py).|     
+
