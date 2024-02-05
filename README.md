@@ -57,7 +57,7 @@ SVC - using synthetic data points
 | src/                 | Python script for the  model (svc.py).|     
 
 
-Heart health Prediction - using synthetic data points
+Heart disease Prediction - Logistic Regression
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Heart_health_data.csv).        |
