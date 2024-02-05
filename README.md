@@ -56,3 +56,11 @@ SVC - using synthetic data points
 | notebooks/           | Jupyter notebooks for data analysis and training (Naive.ipynb).|
 | src/                 | Python script for the  model (svc.py).|     
 
+
+Heart health Prediction - using synthetic data points
+| Directory/File       | Description                                      |
+|----------------------|--------------------------------------------------|
+| data/                | Contains the dataset file (Heart_health_data.csv).        |
+| notebooks/           | Jupyter notebooks for data analysis and training (Naive.ipynb).|
+| src/                 | Python script for the  model (svc.py).|     
+
