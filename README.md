@@ -61,6 +61,6 @@ Heart disease Prediction - Logistic Regression
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Heart_health_data.csv).        |
-| notebooks/           | Jupyter notebooks for data analysis and training (Naive.ipynb).|
-| src/                 | Python script for the  model (svc.py).|     
+| notebooks/           | Jupyter notebooks for data analysis and training (Heart_diseases predictor.ipynb).|
+| src/                 | Python script for the  model (logistic.py).|     
 
