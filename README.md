@@ -23,7 +23,8 @@ Pregnancy Risk Predictor Model - This project is work in progress
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Maternal Health.csv).        |
 | notebooks/           | Jupyter notebooks for data analysis and training (ML Research.ipynb).|
-| src/                 | Python script for the  model (Logistic Regression.py).|     
+| src/                 | Python script for the  model (Logistic Regression.py).|
+| notebooks/           | Jupyter notebooks for data analysis and training (ML Research final.ipynb).|
 
 
 Algerian Forest Fire - Lasso Ridge Elasticnet Model
