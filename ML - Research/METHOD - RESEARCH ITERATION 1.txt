@@ -1,0 +1,55 @@
+METHODOLOGY : 
+
+*********DATA COLLECTION *****************
+For this investigation, we obtained the maternal health risk factors dataset [28] from the publicly available repository of UCI machine learning. This dataset consists of 1014 rows and 7 columns, predominantly representing pregnant women with low health risks. Specifically, among the 1014 observations, 406 (40%) pregnant women were categorized as low risk, 336 (33.1%) as medium risk, and 272 (26.8%) as high risk. Subsequently, we conducted hypertuning on the dataset and balanced the data using categorical encoding, resulting in a total of 1218 observations. The dataset attributes and their descriptions are detailed below:
+Age: Represents the age of pregnant women in years.
+Systolic BP: Denotes the maximum blood pressure in millimeters of mercury, a crucial parameter during pregnancy.
+Diastolic BP: Indicates the lower blood pressure measurement in millimeters of mercury, another vital consideration during pregnancy.
+BS: Refers to the amount of glucose in the blood, measured in mmol/L.
+Heart rate: Represents the normal heart rate in beats per minute.
+Risk Level: Signifies the intensity level of risk prediction during pregnancy, dependent on the preceding attributes.
+In this context, the target variable is the risk level, while the remaining features serve as predictor variables.
+
+************ Data Preprocessing ***************
+Categorical Encoding:
+The categorical variable 'RiskLevel' underwent encoding into numerical values. This transformation is an imperative step for machine learning algorithms that necessitate numerical inputs, ensuring compatibility and effectiveness in subsequent analyses.
+Feature Selection:
+As part of feature selection, the column 'DiastolicBP' was strategically removed from the dataset. Feature selection is a critical preprocessing technique aimed at narrowing down the focus to the most pertinent variables, thereby potentially enhancing the model's predictive performance.
+Handling Class Imbalance:
+Addressing class imbalance is pivotal for an unbiased model. The Synthetic Minority Over-sampling Technique (SMOTE) was employed to rectify the class imbalance in the target variable 'RiskLevel'. SMOTE adeptly generates synthetic samples for the minority class, guaranteeing a balanced representation within the dataset.
+
+****************** Model Development ******************
+Train-Test Split:
+To evaluate the model's performance on unseen data, the dataset underwent a division into training and testing sets. This approach involves training the model on one subset and assessing its performance on another. The separation of the dataset into training and testing sets is a crucial step to ensure the model's generalizability to new, unseen data.
+Random Forest Classifier:
+The Random Forest Classifier, chosen as the predictive model, stands out as an ensemble learning method. It harnesses the power of multiple decision trees to augment predictive accuracy and mitigate overfitting.
+Hyperparameter Tuning:
+Grid Search, a sophisticated hyperparameter optimization technique, was deployed to identify the optimal set of hyperparameters for the Random Forest Classifier. Key parameters, including the number of estimators (trees), maximum depth of the tree, minimum samples split, and minimum samples leaf, were systematically tuned to enhance model performance.
+Model Training:
+The Random Forest Classifier underwent training on the preprocessed dataset, utilizing the optimal hyperparameter configuration derived through the Grid Search process.
+
+********************Model Evaluation********************
+Performance Metrics:
+Evaluation of the model's performance was conducted using fundamental classification metrics, namely accuracy, precision, and recall. Accuracy gauges overall correctness, precision assesses the relevance of positive predictions, and recall evaluates the model's capability to capture positive instances.
+Cross-Validation:
+To fortify the model evaluation process and minimize the risk of overfitting, a robust 5-fold cross-validation strategy was employed during the hyperparameter tuning phase. This involved partitioning the dataset into five subsets, training the model on four subsets, and evaluating on the fifth. The process was iterated five times, and the results were averaged to provide a comprehensive assessment.
+Results Reporting:
+The conclusive reporting encompassed the model's accuracy, precision, recall, and an intricate classification report. The classification report served to offer nuanced insights into the model's performance across distinct classes, providing a holistic evaluation perspective.
+
+Results And Discussion:
+The table below provides the accuracy percentages for various machine learning algorithms used in predicting maternal health risks along with their Precision, Recall and F1 Score.
+
+TABLEEE
+
+
+
+
+********************CONCLUSION************************
+
+
+
+This research endeavors to forecast maternal health risks through the application of diverse machine learning algorithms. Our study reveals that the random forest with hyperparameterization has exhibited remarkable efficacy compared to alternative models.
+Through comprehensive comparison with existing methodologies in the literature, our proposed model stands out with an exceptional accuracy rate of 94.26%.
+
+These findings underscore the potential of machine learning in enhancing prenatal care by enabling early identification and mitigation of maternal health complications. The success of our model signifies a significant stride toward personalized healthcare interventions tailored to expectant mothers. By leveraging advanced computational techniques, healthcare practitioners can potentially preemptively identify and mitigate risks, thereby enhancing prenatal care outcomes and maternal well-being.
+
