@@ -27,7 +27,7 @@ Pregnancy Risk Predictor Model - SMOTE
 | notebooks/           | Jupyter notebooks for data analysis and training (ML Research final.ipynb).|
 
 
-Algerian Forest Fire - Lasso/ Ridge Elasticnet Model
+Algerian Forest Fire - Lasso/ Ridge/ Elasticnet Model
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Algerian.csv).        |
