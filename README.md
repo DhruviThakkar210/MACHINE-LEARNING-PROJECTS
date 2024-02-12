@@ -18,7 +18,7 @@ Linear Regression  -  Car Dekho's Data
 
 
 
-Pregnancy Risk Predictor Model - This project is work in progress 
+Pregnancy Risk Predictor Model - SMOTE
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Maternal Health.csv).        |
