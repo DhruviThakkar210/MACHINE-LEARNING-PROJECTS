@@ -43,7 +43,7 @@ Iris DataSet - Decision Tree - Pre & Post Prunning
 | src/                 | Python script for the  model (Elasticnet.py).|     
 
 
-Naive Bayes 
+Naive Bayes - feature scaling
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Iris.csv).        |
