@@ -18,7 +18,7 @@ Linear Regression  -  Car Dekho's Data
 
 
 
-Pregnancy Risk Predictor Model - SMOTE
+Pregnancy Risk Predictor Model - SMOTE,PCA
 | Directory/File       | Description                                      |
 |----------------------|--------------------------------------------------|
 | data/                | Contains the dataset file (Maternal Health.csv).        |
